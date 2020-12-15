@@ -44,7 +44,7 @@ Write-Host " After the finished loop, delay period between switching is increase
 Write-Host " Touching the PC during the test isn't recommended (can leads to false - positivive)!                                   " -ForegroundColor black -BackgroundColor white
 Write-Host " Another Core (without load) can fail too! It's not perfect!                                                            " -ForegroundColor black -BackgroundColor white
 Write-Host " Cinebench 23 and SSD drive required + you can watch frequency and switching in hwinfo.                                 " -ForegroundColor black -BackgroundColor white                                                  
-Write-Host " If you wanna see Cinebench's result, start and run 30 min CPU (Single Core) before the script.                         " -ForegroundColor black -BackgroundColor white                                                  
+Write-Host " If you wanna see (non-relevant) Cinebench's result, start and run 30 min CPU (Single Core) before the script.          " -ForegroundColor black -BackgroundColor white                                                  
 Write-Host " Currently, only all core loop supported, single core tunning will be in future relases.                                " -ForegroundColor black -BackgroundColor white                                                  
 Write-Host "                                                                                                                        " -ForegroundColor black -BackgroundColor white                                                  
 Write-Host ""
