@@ -36,7 +36,7 @@ Write-Host ""
 Write-Host ""
 Write-Host ""
 Write-Host "                                                                                                                        " -ForegroundColor black -BackgroundColor white
-Write-Host " Test congiguration combining affinition to logical cores (T0, T1) and whole core (HyperThreading T1+T2) in the loop.   " -ForegroundColor black -BackgroundColor white
+Write-Host " Test configuration combining affinition to logical cores (T0, T1) and whole core (HyperThreading T1+T2) in the loop.   " -ForegroundColor black -BackgroundColor white
 Write-Host " It leads also to mid range load which will test the whole curve, not only the maximum load (hope so).                  " -ForegroundColor black -BackgroundColor white
 Write-Host " In case of reboot or Cinebench's 23 error, modify (negative) magnitude in AMD Curve Optimizer (bios).                  " -ForegroundColor black -BackgroundColor white
 Write-Host " Last testing Core is in the CurveOptimizerTest.log (same folder as this cool script).                                  " -ForegroundColor black -BackgroundColor white
