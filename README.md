@@ -15,6 +15,8 @@ or
 
 Right click on the CurveOptimizerTest.ps1 and click Run with Powershell
 
+
+
 Requirements:
 
 Windows 10, admin rights to run PowerShell
