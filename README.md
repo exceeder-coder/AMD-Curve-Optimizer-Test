@@ -1,7 +1,9 @@
 # AMD Curve Optimizer Test
 Tool for testing undervolted cores of Ryzen 5000
 
-Put both scripts to Cinebench's 23 folder
+Test congiguration combining affinition to logical cores (T0, T1) and whole core (HyperThreading T1+T2) in the loop.
+
+Put both scripts to Cinebench's 23 folder.
 
 Start PowerShell script by CurveOptimizerTest.cmd
 
