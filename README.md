@@ -1,5 +1,7 @@
 # AMD Curve Optimizer Test
-Tool for testing undervolted cores of Ryzen 5000 (windows, I am from linux world, 1st attempt to write something in PowerShell)
+Tool for testing undervolted cores of Ryzen 5000 (windows)
+
+(I am from linux world, 1st attempt to write something in PowerShell)
 
 Test configuration combining affinition to logical cores (T0, T1) and whole core (HyperThreading T1+T2) in the loop.
 
