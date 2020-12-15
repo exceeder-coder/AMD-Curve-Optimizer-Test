@@ -6,7 +6,7 @@ $start = Get-Date -format "dd.MM.yyyy HH:mm:ss"
 Add-Content CurveOptimizerTest.log "dummy"
 Remove-item CurveOptimizerTest.log
 Add-Content CurveOptimizerTest.log "Loop Started at $start with init step $step ms"  
-Start-Process -WindowStyle Minimized -FilePath "Cinebench.exe" -ArgumentList "g_CinebenchCpu1Test=true","g_CinebenchMinimumTestDuration=600"
+Start-Process -WindowStyle Minimized -FilePath "Cinebench.exe" -ArgumentList "g_CinebenchCpu1Test=true","g_CinebenchMinimumTestDuration=1800"
 get-process Cinebench | % { $_.ProcessorAffinity = 1 }
 
 $logic_cpu = (Get-CIMInstance -Class 'CIM_Processor').NumberOfLogicalProcessors
@@ -44,7 +44,7 @@ Write-Host " After the finished loop, delay period between switching is increase
 Write-Host " Touching the PC during the test isn't recommended (can leads to false - positivive)!                                   " -ForegroundColor black -BackgroundColor white
 Write-Host " Another Core (without load) can fail too! It's not perfect!                                                            " -ForegroundColor black -BackgroundColor white
 Write-Host " Cinebench 23 and SSD drive required + you can watch frequency and switching in hwinfo.                                 " -ForegroundColor black -BackgroundColor white                                                  
-Write-Host " If you wanna see Cinebench's result, start and run 10 min CPU (Single Core) before the script.                         " -ForegroundColor black -BackgroundColor white                                                  
+Write-Host " If you wanna see Cinebench's result, start and run 30 min CPU (Single Core) before the script.                         " -ForegroundColor black -BackgroundColor white                                                  
 Write-Host " Currently, only all core loop supported, single core tunning will be in future relases.                                " -ForegroundColor black -BackgroundColor white                                                  
 Write-Host "                                                                                                                        " -ForegroundColor black -BackgroundColor white                                                  
 Write-Host ""
