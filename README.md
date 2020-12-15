@@ -14,4 +14,5 @@ Right click on the CurveOptimizerTest.ps1 and click Run with Powershell
 Requirements:
 
 Cinebench23
+
 Ryzen 5000 CPU (but in general compatible with all HyperThreading CPU's)
