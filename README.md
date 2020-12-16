@@ -3,7 +3,6 @@ Tool for testing undervolted cores of Ryzen 5000 (windows)
 
 https://www.youtube.com/watch?v=QCyZ-QYwsFY
 
-(I am from linux world, 1st attempt to write something in PowerShell)
 
 Test configuration combining affinition to logical cores (T0, T1) and whole core (HyperThreading T1+T2) in the loop.
 
@@ -24,3 +23,6 @@ Windows 10, admin rights to run PowerShell
 Cinebench23
 
 Ryzen 5000 CPU (but in general compatible with all HyperThreading CPU's)
+
+
+(I am from linux world, 1st attempt to write something in PowerShell)
