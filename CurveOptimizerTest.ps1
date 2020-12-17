@@ -1,6 +1,6 @@
 $core=$args[0]
 $step=[int]$args[1]
-if ($step -eq 0) { $step = 10 }
+if ($step -eq 0) { $step = 20 }
 $delay = 0
 $start = Get-Date -format "dd.MM.yyyy HH:mm:ss"
 Add-Content CurveOptimizerTest.log "dummy"
@@ -40,7 +40,7 @@ Write-Host " Test configuration combining affinition to logical cores (T0, T1) a
 Write-Host " It leads also to mid range load which will test the whole curve, not only the maximum load (hope so).                  " -ForegroundColor black -BackgroundColor white
 Write-Host " In case of reboot or Cinebench's 23 error, modify (negative) magnitude in AMD Curve Optimizer (bios).                  " -ForegroundColor black -BackgroundColor white
 Write-Host " Last testing Core is in the CurveOptimizerTest.log (same folder as this cool script).                                  " -ForegroundColor black -BackgroundColor white
-Write-Host " After the finished loop, delay period between switching is increased little (can be tuned in .cmd +10ms).              " -ForegroundColor black -BackgroundColor white
+Write-Host " After the finished loop, delay period between switching is increased little (can be tuned in .cmd +20ms).              " -ForegroundColor black -BackgroundColor white
 Write-Host " Touching the PC during the test isn't recommended (can leads to false - positivive)!                                   " -ForegroundColor black -BackgroundColor white
 Write-Host " Another Core (without load) can fail too! It's not perfect!                                                            " -ForegroundColor black -BackgroundColor white
 Write-Host " Cinebench 23 and SSD drive required + you can watch frequency and switching in hwinfo.                                 " -ForegroundColor black -BackgroundColor white                                                  
